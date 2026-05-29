@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Babe!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="page1" class="page active">
+        <h1>Hi babe! <br> What was this day... yeah <br> It is YOUR BIRTHDAAAYYY! 🎈</h1>
+        
+        <div class="cake-container" id="candle-trigger">
+            <div class="cake">
+                <div class="candle">
+                    <div class="flame" id="flame"></div>
+                </div>
+                <div class="frosting"></div>
+                <div class="layer"></div>
+            </div>
+            <p class="hint">(Tap the flame to blow it out!)</p>
+        </div>
+
+        <button id="continue1" class="hidden-btn">Tap to Continue 💕</button>
+    </div>
+
+    <div id="page2" class="page">
+        <div class="floating-slice">🍰</div>
+        <div class="photo-box">
+            <img src="01.JPG" alt="Put photo 1 here" class="real-photo">
+            <span>(Photo 1)</span>
+        </div>
+        <p class="sweet-text">My wish for you: I wish you endless happiness, a life full of our favorite moments, and for that beautiful smile to never leave your face. I love every time I'm with you, I look back before we have had met each other it so sweet and full of happiness, I hope I really hope I can stay like this forever. I love you to the moon and back, my love will stay for you all the time you miss...</p>
+        <button id="continue2">Tap to Continue 💕</button>
+    </div>
+
+    <div id="page3" class="page">
+        <div class="floating-slice">🍰</div>
+        <div class="photo-box">
+            <img src="IMG_0018.jpg" alt="Put photo 2 here" class="real-photo">
+            <span>(Photo 2)</span>
+        </div>
+        <p class="sweet-text">Now it's your turn... What do you wish for yourself?</p>
+        <textarea id="girlfriend-wish" placeholder="Type your beautiful wish here..."></textarea>
+        <button id="continue3">Tap to Continue 💕</button>
+    </div>
+
+    <div id="page4" class="page">
+        <div class="floating-slice">🍰</div>
+        <h1 class="big-question">Can we be our favorite birthday till the end? ❤️</h1>
+        <button id="continue4">Tap to Continue 💕</button>
+    </div>
+
+    <div id="page5" class="page">
+        <div class="floating-slice">🍰</div>
+        <div class="photo-box center-top">
+            <img src="IMG_0323.jpg" alt="Put photo 3 here" class="real-photo">
+            <span>(Photo 3)</span>
+        </div>
+        
+        <div class="wish-board">
+            <h3>✨ Our Wishes ✨</h3>
+            <p id="final-my-wish"></p>
+            <hr>
+            <p id="final-her-wish"></p>
+        </div>
+
+        <button id="reverse-time">⏪ Reverse Time to the Beginning!</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
